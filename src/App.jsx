@@ -7,10 +7,10 @@ import './App.css'
 
 
 function App() {
-  const activeMenu = false;
+  const activeMenu = true;
   return (
     <>
-      <h1>Hello</h1>
+      {/* <h1>Hello</h1> */}
       <div className='flex relative '>
         {activeMenu ? (
           <div className='w-72 fixed sidebar bg-white'>

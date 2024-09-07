@@ -460,16 +460,17 @@ export const employeesGrid = [
     textAlign: 'Center' },
 
   { field: 'ReportsTo',
-    headerText: 'Reports To',
-    width: '120',
-    textAlign: 'Center' },
-  { field: 'EmployeeID',
-    headerText: 'Employee ID',
-    width: '125',
-    textAlign: 'Center' },
-];
-
-export const links = [
+      headerText: 'Reports To',
+      width: '120',
+      textAlign: 'Center' },
+      
+    { field: 'EmployeeID',
+      headerText: 'Employee ID',
+      width: '125',
+      textAlign: 'Center' },
+  ];
+  
+  export const links = [
   {
     title: 'Dashboard',
     links: [
